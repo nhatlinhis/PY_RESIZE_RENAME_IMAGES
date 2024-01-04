@@ -24,5 +24,5 @@ def rename_images_in_folders(root_directory):
                 os.rename(file_path, new_file_path)
 
 # Sử dụng ví dụ:
-root_directory = "./output"
+root_directory = "D:\\1253021000139"
 rename_images_in_folders(root_directory)

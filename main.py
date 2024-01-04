@@ -18,7 +18,6 @@ def resize():
     f, e = os.path.splitext(outputPath + item)
     print(f)
 
-    # imgResize = img.resize((int(width/2), int(height/2)), Image.ANTIALIAS)
     imgResize = img
     if imgResize.mode in ("RGBA", "P"):
       imgResize = imgResize.convert("RGB")
